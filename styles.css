@@ -93,11 +93,10 @@ body {
   height: 55%;
   background-color: var(--building-color3);
   background: repeating-linear-gradient(
-    direction 90deg,
-    building-color3 0%,
-    building-color3 7.5%,
-    window-color3 7.5%,
-    window-color3 15%
+    90deg,
+    var(--building-color3),
+    var(--building-color3),
+    var(--window-color3) 15%
   );
 }
 .bb4 {
